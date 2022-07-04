@@ -2,25 +2,10 @@
 
 Author: YourNameHere
 
-This Bolt extension can be used as a starting point to base your own extensions on.
+This Bolt extension can be used to add Leaders in article editor
 
 Installation:
 
 ```bash
 composer require luxnewcms/leaders-extension
-```
-
-
-## Running PHPStan and Easy Codings Standard
-
-First, make sure dependencies are installed:
-
-```
-COMPOSER_MEMORY_LIMIT=-1 composer update
-```
-
-And then run ECS:
-
-```
-vendor/bin/ecs check src
 ```
