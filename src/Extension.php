@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace BobDenOtter\LeadersExtension;
+namespace LuxNewCms\LeadersExtension;
 
 use Bolt\Extension\BaseExtension;
 

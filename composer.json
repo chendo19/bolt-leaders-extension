@@ -1,5 +1,5 @@
 {
-    "name": "newcms/leaders-extension",
+    "name": "luxnewcms/leaders-extension",
     "description": "📦 This Bolt extension can be used as a starting point to base your own extensions on.",
     "type": "bolt-extension",
     "license": "MIT",
@@ -19,12 +19,12 @@
     },
     "autoload": {
         "psr-4": {
-            "BobDenOtter\\LeadersExtension\\": "src/"
+            "LuxNewCms\\LeadersExtension\\": "src/"
         }
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "extra": {
-        "entrypoint": "BobDenOtter\\LeadersExtension\\Extension"
+        "entrypoint": "LuxNewCms\\LeadersExtension\\Extension"
     }
 }
