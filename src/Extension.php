@@ -22,7 +22,7 @@ class Extension extends BaseExtension
         $public = $this->getContainer()->getParameter('bolt.public_folder');
 
         $source = dirname(__DIR__) . '/assets/';
-        $destination = $projectDir . '/' . $public . '/assets/leaders/';
+        $destination = $projectDir . '/' . $public . '/assets/';
 
         $filesystem = new Filesystem();
         $filesystem->mirror($source, $destination);
