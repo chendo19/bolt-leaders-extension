@@ -2,7 +2,7 @@
 
 Author: YourNameHere
 
-This Bolt extension can be used to add Leaders in article editor
+This Bolt extension can be used to add Leaders in the article editor
 
 Installation:
 

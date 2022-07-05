@@ -1,6 +1,6 @@
 {
     "name": "luxnewcms/leaders-extension",
-    "description": "📦 This Bolt extension can be used as a starting point to base your own extensions on.",
+    "description": "📦 This Bolt extension can be used to add Leaders in the article editor.",
     "type": "bolt-extension",
     "license": "MIT",
     "authors": [
