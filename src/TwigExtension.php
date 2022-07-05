@@ -12,10 +12,9 @@ use Webmozart\PathUtil\Path;
 class TwigExtension extends AbstractExtension
 {
 
-
     public function __construct()
     {
+    	
     }
-
 
 }
