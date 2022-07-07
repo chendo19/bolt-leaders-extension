@@ -1,10 +1,10 @@
 ArticleEditor.add('plugin', 'leaders', {
     defaults: {
-        api: 'http://127.0.0.1:8000/api',
+        url: window.location.origin,
         contentType: 'people'
     },
     start: async function() {
-        const response = await fetch(`${this.opts.leaders.api}/contents?page=1&contentType=${this.opts.leaders.contentType}&status=published`)
+        const response = await fetch(`${this.opts.leaders.url}/api/contents?page=1&contentType=${this.opts.leaders.contentType}&status=published`)
         const dataJson = await response.json()
         const items = {}
         
